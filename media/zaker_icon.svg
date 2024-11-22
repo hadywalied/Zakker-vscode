@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <!-- Base circle -->
+    <circle cx="12" cy="12" r="11" fill="none"/>
+    
+    <!-- Central clear space -->
+    <circle cx="12" cy="12" r="6" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.7"/>
+    
+    <!-- Small decorative details -->
+    <path d="M8,6 A9,9 0 0,1 16,6" stroke="currentColor" fill="none" stroke-width="0.75" opacity="0.7"/>
+    <path d="M8,18 A9,9 0 0,0 16,18" stroke="currentColor" fill="none" stroke-width="0.75" opacity="0.7"/>
+    
+    <!-- Corner flourishes -->
+    <path d="M5,8 A2,2 0 0,1 7,6" stroke="currentColor" fill="none" stroke-width="0.75"/>
+    <path d="M19,8 A2,2 0 0,0 17,6" stroke="currentColor" fill="none" stroke-width="0.75"/>
+    <path d="M5,16 A2,2 0 0,0 7,18" stroke="currentColor" fill="none" stroke-width="0.75"/>
+    <path d="M19,16 A2,2 0 0,1 17,18" stroke="currentColor" fill="none" stroke-width="0.75"/>
+    
+    <!-- Arabic text -->
+    <text x="12" y="14.5"
+          font-family="Amiri, Traditional Arabic, Arial"
+          font-size="7"
+          text-anchor="middle"
+          fill="currentColor"
+          style="font-weight: bold;">ذكِّر</text>
+    
+    <!-- Outer border -->
+    <circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1"/>
+</svg>
