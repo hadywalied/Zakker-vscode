@@ -61,9 +61,9 @@ jobs:
     
     - name: Publish to Visual Studio Marketplace
       if: success()
-      run: vsce publish -p ${{ secrets.VSCE_PAT }}
+      run: vsce publish -p ${{ secrets.PUBLISH_TOKEN }}
       env:
-        VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        VSCE_PAT: ${{ secrets.PUBLISH_TOKEN }}
     
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v1
@@ -71,5 +71,5 @@ jobs:
       with:
         files: "*.vsix"
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
 
