@@ -31,7 +31,9 @@ jobs:
       run: yarn compile
     
     - name: Run tests
-      run: yarn test
+      uses: GabrielBB/xvfb-action@v1
+      with:
+        run: yarn test
 
   publish:
     needs: build
