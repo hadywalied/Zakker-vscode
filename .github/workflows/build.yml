@@ -72,6 +72,9 @@ jobs:
       if: success()
       with:
         files: "*.vsix"
-      env:
-        GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-
+        name: "Release ${{ github.ref_name }}"
+        body_path: .github/release-template.md  # Use the template
+        draft: false
+        prerelease: false
+        token: ${{ secrets.GH_TOKEN }}
+        generate_release_notes: true  # Automatically generate release notes

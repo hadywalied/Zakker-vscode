@@ -4,6 +4,7 @@
   "description": "Azkar For Visual Studio Code",
   "publisher": "hadywalied",
   "version": "0.1.0",
+  "icon": "./media/icon.png",
   "repository": {
     "url": "https://github.com/hadywalied/Zakker-vscode"
   },
