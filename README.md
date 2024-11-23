@@ -3,7 +3,9 @@
 
 A Visual Studio Code IDE plugin that provides easy access to Islamic remembrances (Azkar) during your coding sessions, helping you stay connected with the words of Allah.
 
-
+<p align="center">
+    <img width="200" src="./media/icon.png"  alt="Zakker Plugin Icon"/>
+</p>
 
 ## Features
 
