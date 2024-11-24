@@ -1,6 +1,5 @@
-import { Azkar, Category, Zekr } from './models/azkar';
+import { Azkar } from './models/azkar';
 import * as sqlite3 from 'sqlite3';
-import { promisify } from 'util';
 
 export class DatabaseManager {
     private db: sqlite3.Database;
